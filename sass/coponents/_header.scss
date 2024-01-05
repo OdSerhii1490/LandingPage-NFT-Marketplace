@@ -1,0 +1,60 @@
+.header {
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+  &__front {
+    width: 32px;
+    height: 32px;
+  }
+  &__market {
+    width: 199.414px;
+    height: 19.8px;
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  &__item {
+    &:not(:last-child) {
+      padding: 12px 20px;
+    }
+  }
+  &__link {
+    color: inherit;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 60px;
+    gap: 12px;
+    border-radius: 20px;
+    background-color: var(--button-bsckground-color);
+    color: inherit;
+  }
+  &__button-svg {
+    width: 20px;
+    height: 20px;
+  }
+}

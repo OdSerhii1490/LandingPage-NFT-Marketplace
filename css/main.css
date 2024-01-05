@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+textarea {
+  resize: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+}
+
+header {
+  display: flex;
+}
+
+.section {
+  padding: 80px 115px;
+}
+
+:root {
+  --font-family-SpaceMono: "Space Mono", monospace;
+  --font-family-WorkSans: "Work Sans", sans-serif;
+  --font-weight-400: 400;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-size-12: 12px;
+  --font-size-16: 16px;
+  --font-size-22: 22px;
+  --font-size-28: 28px;
+  --font-size-38: 38px;
+  --font-size-51: 51px;
+  --font-size-67: 67px;
+  --line-height-110: 110%;
+  --line-height-120: 120%;
+  --line-height-140: 140%;
+  --line-height-160: 160%;
+  --main-background-color: #2b2b2b;
+  --secondary-background-color: #3b3b3b;
+  --button-bsckground-color: #a259ff;
+  --main-text-color: #ffffff;
+  --secondary-text-color: #858584;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-logo__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-logo__item {
+  display: flex;
+  align-items: center;
+}
+.header-logo__front {
+  width: 32px;
+  height: 32px;
+}
+.header-logo__market {
+  width: 199.414px;
+  height: 19.8px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.navigation__item:not(:last-child) {
+  padding: 12px 20px;
+}
+.navigation__link {
+  color: inherit;
+}
+.navigation__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: 60px;
+  gap: 12px;
+  border-radius: 20px;
+  background-color: var(--button-bsckground-color);
+  color: inherit;
+}
+.navigation__button-svg {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=main.css.map */
